@@ -1,4 +1,4 @@
 android-healtcare-system
 ========================
 
-this is sample project for android
+This is Sample project for android 

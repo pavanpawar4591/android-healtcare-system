@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout style="@style/TitleBar">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_search"
+            android:src="@drawable/title_search"
+            android:onClick="onClickSearch" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Module Wise Information:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Ambulance Calling::
+        this is service that can get currunt GPS Location and Send sms to server and get details for ambulance in perticular area
+        
+ 2.Community help::
+         in rural areas we need help from some cummunity, so this send sms to cummunity for help
+         
+ 3.Student Help::
+ 		for primary checkups this apps send sms to your nearby areas medical college student for help
+ 
+ 4.Immunization System::
+ 		this provides services for disease and their precautions ,symptons,and hoe to cure it?
+ 		
+ 5.Add Friends List::
+ 		This function allows to send a message to the friends  added previously to the friends  during emergency and also sends the message to the ambulance.   
+ 
+ 
+ 6.Registration of New Boarn Child::
+ this is Registration of New Boarn Child and send sms to server and you will get daily updates for vaccination and schedule for it
+ " />
+
+</LinearLayout>
